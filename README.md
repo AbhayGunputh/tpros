@@ -7,19 +7,9 @@
 #### i) In one terminal, type:
 >     roscore
 #### ii) In a second terminal type:
->     rosrun turtlesim
-#### iii) In a third terminal type:
->     rosrun turtlesim turtle_teleop_key
-#### iv) To add a second turtle, type:
->     rosservice call /spawn [double tab]
->     then type the name of the 2nd turtle
->     press enter after typing the name of the turtle
-#### v) To control the second turtle, type:
->     rosrun turtlesim turtle_teleop_key /turtle1/cmd_vel:=/turtle2/cmd_vel
+>     rosrun rviz rviz
 
-
-## To run the Node
-#### Open a terminal, go to the directory there the package is and type:
->     source deve/setup.bash
-#### to run the node, type:
->     rosrun name_of_the_package name_of_the_node
+#### iii) to add a marker in RVIZ
+>     click on add and then choose marker
+#### iv) to add the node
+>     in the marker, type the name of the marker from the node 
