@@ -1,4 +1,4 @@
-# TP ROS TurtleSim
+# TP ROS RVIZ
 
 ## 1) First, you must create a package in your workspace
 ## 2) Replace the src file with the src file provided from github
